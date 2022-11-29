@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column; 
+  gap: 100px;
+  background-color: lightyellow;
+}
+
+#root {
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  height: 60vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  width: 40%;
+}
+
+button {
+  height: 50px;
+  border-radius: 6px;
+  width: 200px;
+  font-size: 20px;
+  background-color: violet;
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.users {
+  display: flex;
+  padding: 20px;
+  flex: 1;
+  flex-direction: column;
+  border-left: 1px solid black;
+  width: 40%;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.users-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-wealth {
+  padding-top: 20px;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+

@@ -1,0 +1,1 @@
+export const textForBtns = ['Add User', 'Double Money', 'Show Only Millionaires', 'Sort By Richest', 'Calculate Entire Wealth', 'Delete Users']
